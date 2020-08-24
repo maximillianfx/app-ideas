@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Binary Converter',
+      title: 'Binary2Decimal Converter',
       debugShowCheckedModeBanner: false,
-      home: ConverterScreen(titleApp: 'Binary Converter'),
+      home: ConverterScreen(titleApp: 'Binary2Decimal Converter'),
     );
   }
 }
